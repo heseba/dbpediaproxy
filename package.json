@@ -1,0 +1,22 @@
+{
+  "name": "dbpediaproxy",
+  "version": "1.0.0",
+  "description": "A transparent proxy for dbpedia",
+  "main": "proxy.js",
+  "scripts": {
+    "lint": "standard --fix **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heseba/dbpediaproxy.git"
+  },
+  "author": "Sebastian Heil",
+  "license": "MIT",
+  "homepage": "https://github.com/heseba/dbpediaproxy#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "log-timestamp": "^0.1.2",
+    "redis": "^2.7.1",
+    "underscore": "^1.8.3"
+  }
+}
